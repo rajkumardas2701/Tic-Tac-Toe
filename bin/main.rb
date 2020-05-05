@@ -1,37 +1,19 @@
-# puts 'Hello world!'
-
-valid_choices = []
+valid_options = %w[1 2 3 4 5 6 7 8 9]
+selected_positions = []
 game_won = false
 board = 1
-last_attempt = nil
-
-puts 'Player 1, please enter your name:'
-p1 = gets.chomp.upcase
-
-puts 'Player 2, Please enter your name'
-p2 = gets.chomp.upcase
-
-while !game_won && board <= 9
-  if last_attempt == p1
-    puts "#{p2.capitalize}, please make a choice"
-    a = gets.chomp
-    puts 'You have made your move'
-    valid_choices.push(a.to_i)
-    last_attempt = p2
-    # a = nil
-  else
-    puts "#{p1.capitalize}, please make a choice"
-    last_attempt = p1
-    a = gets.chomp
-    puts 'You have made your move'
-    valid_choices.push(a.to_i)
-    # a = nil
+while board <= 9
+  puts 'Player 1 turns'
+  puts 'player_1 select a number from 1 to 9'
+  option_selected = gets.chomp
+  until valid_options.include?(option_selected) && !selected_positions.include?(option_selected)
+    puts 'please put a number between 1 to 9 and make sure it has not been selected'
+    option_selected = gets.chomp
   end
+  puts "The board has now been updated, player_1 played at position #{option_selected}"
+  selected_positions.push(option_selected)
+  puts 'The board is displayed'
+  return puts 'player_1 has won the game' if game_won
+  return puts 'The game has ended in draw' if board == 9
   board += 1
-
-  # if cond_check()
-  #     game_won = true
-  # else
-  #     next
-
 end
