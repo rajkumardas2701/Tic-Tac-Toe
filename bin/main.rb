@@ -16,8 +16,9 @@ while board <= valid_options.size
   end
   # update the board
   puts "The board has now been updated, player_1 played at position #{option_selected}"
-  selected_positions.push(option_selected)
+  # selected_positions.push(option_selected)
   puts 'The board is displayed'
+
   return puts 'player_1 has won the game' if game_won
   return puts 'The game has ended in draw' if board == valid_options.size
 
@@ -28,14 +29,14 @@ while board <= valid_options.size
   # prompt user for a selection
   option_selected = gets.chomp
   # check the option seclected by the player is valid and the position is not taken
-  until valid_options.include?(option_selected) && !selected_positions.include?(option_selected)
-    puts 'please put a number between 1 to 9 and make sure it has not been selected'
-    option_selected = gets.chomp
-  end
+  # until valid_options.include?(option_selected) && !selected_positions.include?(option_selected)
+  #   puts 'please put a number between 1 to 9 and make sure it has not been selected'
+  #   option_selected = gets.chomp
+  # end
   # update the board
   puts "The board has now been updated, player_2 played at position #{option_selected}"
 
-  selected_positions.push(option_selected)
+  # selected_positions.push(option_selected)
 
   puts 'Display board'
 
