@@ -1,3 +1,5 @@
+# !/usr/bin/env ruby
+
 valid_options = %w[1 2 3 4 5 6 7 8 9]
 selected_positions = []
 game_won = false
