@@ -1,4 +1,4 @@
-class Validation
+class Validation < Board
   def initialize(valid_option, selected_positions)
     valid_options = %w[1 2 3 4 5 6 7 8 9]
     selected_positions = []
