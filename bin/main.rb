@@ -4,7 +4,7 @@ valid_options = %w[1 2 3 4 5 6 7 8 9]
 selected_positions = []
 game_won = false
 board = 1
-while board <= 9
+while board <= valid_options.size
   puts 'Player 1 turns'
   puts 'player_1 select a number from 1 to 9'
   # prompt user for a selection
@@ -19,7 +19,7 @@ while board <= 9
   selected_positions.push(option_selected)
   puts 'The board is displayed'
   return puts 'player_1 has won the game' if game_won
-  return puts 'The game has ended in draw' if board == 9
+  return puts 'The game has ended in draw' if board == valid_options.size
 
   board += 1
 
@@ -41,7 +41,7 @@ while board <= 9
 
   return puts 'player_2 has won the game' if game_won
 
-  return puts 'The game has ended in draw' if board == 9
+  return puts 'The game has ended in draw' if board == valid_options.size
 
   board += 1
 
