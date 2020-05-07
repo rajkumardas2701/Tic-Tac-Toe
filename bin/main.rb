@@ -7,7 +7,7 @@ tictactoe = Board.new
 validation = Validation.new
 
 def player_move(player_name, validation, board)
-  puts "player #{player_name} turn"
+  puts "player #{player_name} turn!"
   puts "player #{player_name} select a number from 1 to 9"
   option_selected = gets.chomp
 
