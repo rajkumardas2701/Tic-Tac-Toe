@@ -9,7 +9,7 @@ while board <= valid_options.size
   puts 'player_1 select a number from 1 to 9'
   # prompt user for a selection
   option_selected = gets.chomp
-  # check the option seclected by the player is valid and the position is not taken
+  # check the option seclected by the player is valid and the position is not taken!
   until valid_options.include?(option_selected) && !selected_positions.include?(option_selected)
     puts 'please put a number between 1 to 9 and make sure it has not been selected'
     option_selected = gets.chomp
