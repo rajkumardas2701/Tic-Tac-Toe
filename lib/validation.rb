@@ -5,11 +5,10 @@ class Validation < Board
   end
 
   def valid_input(position)
-    return @valid_options.include?(position) && !@selected_positions.include?(position)
+    @valid_options.include?(position) && !@selected_positions.include?(position)
   end
 
   def update_selected_position(position)
     @selected_positions.push(position)
   end
-
 end
