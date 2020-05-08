@@ -1,4 +1,4 @@
-# Project Name
+# TicTacToe
 
 > We have created a command line TicTacToe Project using Ruby.
 
