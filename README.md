@@ -2,7 +2,7 @@
 
 > We have created a command line TicTacToe Project using Ruby.
 
-Additional description about the project and its features.
+TicTacToe is a two player game which is programmed using Ruby Object Oriented concept. How to play the game is under "Rules of the game" section. 
 
 ## Built With
 
