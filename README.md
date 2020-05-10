@@ -67,4 +67,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://github.com/rajkumardas2701/Tic-Tac-Toe/blob/d0eddecbee9ad79426651402e8cea3327836d855/LICENSE) licensed.
