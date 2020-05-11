@@ -1,63 +1,60 @@
-# Project Name
+# TicTacToe
 
-> One paragraph statement about the project.
+> We have created a command line TicTacToe Project using Ruby.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+TicTacToe is a two player game which is programmed using Ruby Object Oriented concept. How to play the game is under "Rules of the game" section. 
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby,
+- Vs.code,
+- Git and Github
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- clone this repository `https://github.com/rajkumardas2701/Tic-Tac-Toe`
+- cd to the folder `Tic-Tac-Toe`
+- To run the application use this command `ruby bin/main.rb`
 
 
-To get a local copy up and running follow these simple example steps.
+### Rules of the game
 
-### Prerequisites
+1. The game can only be played by 2 players (Player X and Player O).
 
-### Setup
+2. Player X begins the game.
 
-### Install
+3. Each player can only take one position at a time.
 
-### Usage
+4. Each player can only pick a position between 1 - 9.
 
-### Run tests
+5. Each player can only pick a position that has not been picked previously.
 
-### Deployment
+6. A player wins if three cells in the board match either horizontally, vertically or diagonally.
+
+7. The game comes to a draw if all cells in the board have been exhausted and there still is no winner.
+
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Evanson Igiri**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/evansinho)
+- Twitter: [@twitterhandle](https://twitter.com/iamsinho1304)
+- Linkedin: [linkedin](https://linkedin.com/in/evanson-igiri)
 
-👤 **Author2**
+👤 **Rajkumar Das**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/rajkumardas2701)
+- Twitter: [@twitterhandle](https://twitter.com/Rajkuma58621299)
+- Linkedin: [linkedin](https://www.linkedin.com/in/rajkumar-das-41308961/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/rajkumardas2701/Tic-Tac-Toe/issues).
 
 ## Show your support
 
@@ -65,10 +62,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Odin Project
+- Ferguson Iyara
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://github.com/rajkumardas2701/Tic-Tac-Toe/blob/d0eddecbee9ad79426651402e8cea3327836d855/LICENSE) licensed.
