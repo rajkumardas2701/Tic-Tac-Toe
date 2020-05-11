@@ -1,7 +1,7 @@
 require './lib/validation'
 
 describe Validation do
-  let (:validation) {Validation.new}
+  let(:validation) { Validation.new }
 
   describe 'validate input' do
     it 'should return true if a valid option is inputted' do
